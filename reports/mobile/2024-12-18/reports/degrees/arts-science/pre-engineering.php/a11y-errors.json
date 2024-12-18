@@ -1,0 +1,178 @@
+[
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-IMG",
+            "path": "1,HTML,1,BODY,16,IMG",
+            "selector": "body > img",
+            "boundingRect": {
+              "top": 2879,
+              "bottom": 2880,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://secure.adnxs.com/seg?t=2&amp;add=32960569\" width=\"1\" height=\"1\">",
+            "nodeLabel": "body > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-A",
+            "path": "1,HTML,1,BODY,3,FOOTER,0,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,UL,1,LI,0,A",
+            "selector": "div.col-12 > ul.footer-address > li > a",
+            "boundingRect": {
+              "top": 1935,
+              "bottom": 1954,
+              "left": 204,
+              "right": 208,
+              "width": 4,
+              "height": 19
+            },
+            "snippet": "<a href=\"tel:\">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag244",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.2.4.4",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-A",
+            "path": "1,HTML,1,BODY,21,DIV,0,SPAN,1,A",
+            "selector": "body > div.alert > span > a",
+            "boundingRect": {
+              "top": 779,
+              "bottom": 800,
+              "left": 20,
+              "right": 137,
+              "width": 117,
+              "height": 22
+            },
+            "snippet": "<a tabindex=\"0\" role=\"button\" href=\"#\" target=\"_blank\" rel=\"noopener\" aria-label=\"learn more about cookies\">",
+            "nodeLabel": "Privacy Policy",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

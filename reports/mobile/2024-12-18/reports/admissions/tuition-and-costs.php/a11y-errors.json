@@ -1,0 +1,372 @@
+[
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-IMG",
+            "path": "1,HTML,1,BODY,16,IMG",
+            "selector": "body > img",
+            "boundingRect": {
+              "top": 7116,
+              "bottom": 7117,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://secure.adnxs.com/seg?t=2&amp;add=32960569\" width=\"1\" height=\"1\">",
+            "nodeLabel": "body > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-A",
+            "path": "1,HTML,1,BODY,3,FOOTER,0,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,UL,1,LI,0,A",
+            "selector": "div.col-12 > ul.footer-address > li > a",
+            "boundingRect": {
+              "top": 6172,
+              "bottom": 6191,
+              "left": 204,
+              "right": 208,
+              "width": 4,
+              "height": 19
+            },
+            "snippet": "<a href=\"tel:\">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag244",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.2.4.4",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-A",
+            "path": "1,HTML,1,BODY,21,DIV,0,SPAN,1,A",
+            "selector": "body > div.alert > span > a",
+            "boundingRect": {
+              "top": 779,
+              "bottom": 800,
+              "left": 20,
+              "right": 137,
+              "width": 117,
+              "height": 22
+            },
+            "snippet": "<a tabindex=\"0\" role=\"button\" href=\"#\" target=\"_blank\" rel=\"noopener\" aria-label=\"learn more about cookies\">",
+            "nodeLabel": "Privacy Policy",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "table-fake-caption",
+    "title": "Tables do not use `<caption>` instead of cells with the `[colspan]` attribute to indicate a caption.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that tables use the actual caption element instead of cells with the `[colspan]` attribute may improve the experience for screen reader users. [Learn more about captions](https://dequeuniversity.com/rules/axe/4.10/table-fake-caption).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-TABLE",
+            "path": "1,HTML,1,BODY,2,MAIN,3,DIV,19,TABLE",
+            "selector": "body > main#main-content > div.container > table.table",
+            "boundingRect": {
+              "top": 4423,
+              "bottom": 4629,
+              "left": 12,
+              "right": 400,
+              "width": 388,
+              "height": 206
+            },
+            "snippet": "<table class=\"table table-hover table-bordered\" style=\"width: 100%;\">",
+            "nodeLabel": "Rangely Campus\nStudent Government Fee\t$3.47 per credit hour\nStudent Activity Fe…",
+            "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-TABLE",
+            "path": "1,HTML,1,BODY,2,MAIN,3,DIV,21,TABLE",
+            "selector": "body > main#main-content > div.container > table.table",
+            "boundingRect": {
+              "top": 4685,
+              "bottom": 4809,
+              "left": 12,
+              "right": 400,
+              "width": 388,
+              "height": 124
+            },
+            "snippet": "<table class=\"table table-hover table-bordered\" style=\"width: 100%;\">",
+            "nodeLabel": "Craig Campus\nStudent Government Fee\t$3.47 per credit hour\nStudent Activity Fee\t…",
+            "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.tables",
+          "experimental",
+          "wcag2a",
+          "wcag131",
+          "section508",
+          "section508.22.g",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "td-has-header",
+    "title": "`<td>` elements in a large `<table>` do not have table headers.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-TABLE",
+            "path": "1,HTML,1,BODY,2,MAIN,3,DIV,17,TABLE",
+            "selector": "body > main#main-content > div.container > table.table",
+            "boundingRect": {
+              "top": 3510,
+              "bottom": 4360,
+              "left": 12,
+              "right": 400,
+              "width": 388,
+              "height": 850
+            },
+            "snippet": "<table class=\"table table-hover table-bordered\" style=\"width: 100%;\">",
+            "nodeLabel": " \t\n\n \n\n\t\n\nStandard Rate\n\n\t\n\nHigh Cost Rate\n\n\tTotal Rate\n\n\nAircraft Maintenance …",
+            "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,3,DIV,17,TABLE,0,TBODY,0,TR,2,TD",
+                  "selector": "table.table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 3511,
+                    "bottom": 3616,
+                    "left": 178,
+                    "right": 261,
+                    "width": 83,
+                    "height": 105
+                  },
+                  "snippet": "<td valign=\"bottom\">",
+                  "nodeLabel": "Standard Rate"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-7-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,3,DIV,17,TABLE,0,TBODY,0,TR,3,TD",
+                  "selector": "table.table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 3511,
+                    "bottom": 3616,
+                    "left": 261,
+                    "right": 330,
+                    "width": 69,
+                    "height": 105
+                  },
+                  "snippet": "<td valign=\"bottom\">",
+                  "nodeLabel": "High Cost Rate"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-8-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,3,DIV,17,TABLE,0,TBODY,0,TR,4,TD",
+                  "selector": "table.table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 3511,
+                    "bottom": 3616,
+                    "left": 330,
+                    "right": 400,
+                    "width": 70,
+                    "height": 105
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "Total Rate"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.tables",
+          "experimental",
+          "wcag2a",
+          "wcag131",
+          "section508",
+          "section508.22.g",
+          "TTv5",
+          "TT14.b",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

@@ -1,0 +1,1138 @@
+[
+  {
+    "path": "/",
+    "score": 0.72,
+    "performance": 0.55,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.69
+  },
+  {
+    "path": "/404.php",
+    "score": 0.82,
+    "performance": 0.84,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/a-to-z.php",
+    "score": 0.84,
+    "performance": 0.92,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/about/boards.php",
+    "score": 0.77,
+    "performance": 0.58,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/cncc-advisory-council.php",
+    "score": 0.76,
+    "performance": 0.52,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/cncc-committees-boards.php",
+    "score": 0.76,
+    "performance": 0.52,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/foundation/colorado-gives-day.php",
+    "score": 0.83,
+    "performance": 0.8,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/foundation/foundation-events.php",
+    "score": 0.75,
+    "performance": 0.59,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/about/foundation/index.php",
+    "score": 0.79,
+    "performance": 0.65,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/foundation/spartans-give-campaign.php",
+    "score": 0.78,
+    "performance": 0.59,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/foundation/stay-connected.php",
+    "score": 0.83,
+    "performance": 0.8,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/foundation/ways-to-give.php",
+    "score": 0.81,
+    "performance": 0.83,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/about/human-resources/employee-handbook.php",
+    "score": 0.86,
+    "performance": 0.92,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/human-resources/employment-opportunities.php",
+    "score": 0.84,
+    "performance": 0.87,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/human-resources/index.php",
+    "score": 0.79,
+    "performance": 0.66,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/human-resources/online-employment-application.php",
+    "score": 0.78,
+    "performance": 0.63,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/index.php",
+    "score": 0.82,
+    "performance": 0.78,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/institutional-effectiveness/common-data-set.php",
+    "score": 0.77,
+    "performance": 0.67,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/about/institutional-effectiveness/completion-and-transfer-rates-for-student-athletes.php",
+    "score": 0.81,
+    "performance": 0.73,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/institutional-effectiveness/compliance.php",
+    "score": 0.85,
+    "performance": 0.88,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/institutional-effectiveness/ie-research-request-form.php",
+    "score": 0.78,
+    "performance": 0.6,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/institutional-effectiveness/index.php",
+    "score": 0.8,
+    "performance": 0.67,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/institutional-effectiveness/institutional-research-surveys.php",
+    "score": 0.8,
+    "performance": 0.68,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/institutional-effectiveness/surveys.php",
+    "score": 0.85,
+    "performance": 0.89,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/mission-vision-strategic-plan.php",
+    "score": 0.79,
+    "performance": 0.65,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/president.php",
+    "score": 0.78,
+    "performance": 0.62,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/rangely-board-minutes-and-schedules.php",
+    "score": 0.81,
+    "performance": 0.75,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/career-counseling.php",
+    "score": 0.76,
+    "performance": 0.52,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/concurrent-enrollment/ce-high-school-counselor.php",
+    "score": 0.84,
+    "performance": 0.85,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/concurrent-enrollment/ce-placement-testing.php",
+    "score": 0.87,
+    "performance": 0.98,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/concurrent-enrollment/index.php",
+    "score": 0.82,
+    "performance": 0.8,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/crossroads.php",
+    "score": 0.76,
+    "performance": 0.52,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/library.php",
+    "score": 0.75,
+    "performance": 0.58,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics/non-discrimination-title-ix.php",
+    "score": 0.82,
+    "performance": 0.76,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/spartan-talks.php",
+    "score": 0.88,
+    "performance": 0.99,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/transfer-coordination.php",
+    "score": 0.74,
+    "performance": 0.53,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/admissions/apply-today.php",
+    "score": 0.79,
+    "performance": 0.67,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admissions/bridge-to-bachelor-s-degree-program.php",
+    "score": 0.81,
+    "performance": 0.72,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admissions/casfa-information.php",
+    "score": 0.72,
+    "performance": 0.46,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/admissions/determining-residency.php",
+    "score": 0.74,
+    "performance": 0.49,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admissions/experience-cncc.php",
+    "score": 0.73,
+    "performance": 0.52,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/admissions/financial-aid/applying-for-financial-aid.php",
+    "score": 0.8,
+    "performance": 0.71,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admissions/financial-aid/college-financing-plans.php",
+    "score": 0.87,
+    "performance": 0.99,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admissions/financial-aid/contact-financial-aid.php",
+    "score": 0.74,
+    "performance": 0.48,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/admissions/financial-aid/financial-aid-glossary.php",
+    "score": 0.76,
+    "performance": 0.52,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admissions/financial-aid/financial-aid-handbook-and-policies.php",
+    "score": 0.82,
+    "performance": 0.78,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admissions/financial-aid/grants-scholarships.php",
+    "score": 0.76,
+    "performance": 0.52,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admissions/financial-aid/index.php",
+    "score": 0.76,
+    "performance": 0.54,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admissions/submit-your-credentials.php",
+    "score": 0.75,
+    "performance": 0.49,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admissions/tuition-and-costs.php",
+    "score": 0.81,
+    "performance": 0.74,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/campus-life/housing/holland-east-hall.php",
+    "score": 0.8,
+    "performance": 0.72,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/campus-life/housing/nichols-hall.php",
+    "score": 0.79,
+    "performance": 0.67,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/campus-life/housing/ross-hall.php",
+    "score": 0.81,
+    "performance": 0.72,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/campus-life/orientation.php",
+    "score": 0.8,
+    "performance": 0.72,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/cncc-calendar.php",
+    "score": 0.75,
+    "performance": 0.55,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/community/adult-basic-education/adult-basic-education-faq.php",
+    "score": 0.81,
+    "performance": 0.71,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/community/adult-basic-education/english-as-a-second-language.php",
+    "score": 0.8,
+    "performance": 0.69,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/community/adult-basic-education/ged-information.php",
+    "score": 0.8,
+    "performance": 0.68,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/community/adult-basic-education/index.php",
+    "score": 0.81,
+    "performance": 0.74,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/community/cncc-dental-clinic.php",
+    "score": 0.8,
+    "performance": 0.69,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/community/index.php",
+    "score": 0.8,
+    "performance": 0.69,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/community/paleo/immersive-field-paleontology.php",
+    "score": 0.78,
+    "performance": 0.69,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/community/paleo/immersive-paleontology-lab-techniques.php",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/community/paleo/index.php",
+    "score": 0.78,
+    "performance": 0.68,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/community/paleo/the-whole-paleo-experience.php",
+    "score": 0.86,
+    "performance": 0.93,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/community/salon-and-spa/index.php",
+    "score": 0.79,
+    "performance": 0.69,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/community/summer-conference-housing.php",
+    "score": 0.84,
+    "performance": 0.85,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/community/waving-hands-archives.php",
+    "score": 0.77,
+    "performance": 0.58,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/arts-science/associate-of-arts.php",
+    "score": 0.81,
+    "performance": 0.75,
+    "accessibility": 0.91,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/arts-science/associate-of-sciences.php",
+    "score": 0.82,
+    "performance": 0.76,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/arts-science/history-aa.php",
+    "score": 0.77,
+    "performance": 0.68,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/degrees/arts-science/index.php",
+    "score": 0.79,
+    "performance": 0.71,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/arts-science/pre-engineering.php",
+    "score": 0.85,
+    "performance": 0.88,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/arts-science/pre-health.php",
+    "score": 0.83,
+    "performance": 0.81,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/arts-science/psychology-as.php",
+    "score": 0.8,
+    "performance": 0.72,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/ag/agriculture-business-as.php",
+    "score": 0.8,
+    "performance": 0.7,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/ag/agriculture-science-cert.php",
+    "score": 0.8,
+    "performance": 0.7,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/ag/animal-science-as.php",
+    "score": 0.81,
+    "performance": 0.73,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/ag/equine-science-as.php",
+    "score": 0.81,
+    "performance": 0.72,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/ag/index.php",
+    "score": 0.8,
+    "performance": 0.68,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/ag/livestock-ranch-management-aas.php",
+    "score": 0.79,
+    "performance": 0.67,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/amt/amt-requirements.php",
+    "score": 0.81,
+    "performance": 0.73,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/amt/index.php",
+    "score": 0.81,
+    "performance": 0.73,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/auto-tech-aas.php",
+    "score": 0.79,
+    "performance": 0.66,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/aviation-tech/avt-application-procedure.php",
+    "score": 0.8,
+    "performance": 0.69,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/aviation-tech/faqs.php",
+    "score": 0.8,
+    "performance": 0.7,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/aviation-tech/index.php",
+    "score": 0.79,
+    "performance": 0.72,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/degrees/cte/business/accounting-aas.php",
+    "score": 0.81,
+    "performance": 0.75,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/business/business-aas.php",
+    "score": 0.8,
+    "performance": 0.69,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/business/index.php",
+    "score": 0.8,
+    "performance": 0.69,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/cosmetology-aas.php",
+    "score": 0.79,
+    "performance": 0.65,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/cybersecurity-aas.php",
+    "score": 0.79,
+    "performance": 0.64,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/dental-hygiene/bas-dental-hygiene.php",
+    "score": 0.77,
+    "performance": 0.58,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/dental-hygiene/faculty-staff.php",
+    "score": 0.78,
+    "performance": 0.62,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/dental-hygiene/index.php",
+    "score": 0.78,
+    "performance": 0.63,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/dental-hygiene/mission-statement.php",
+    "score": 0.79,
+    "performance": 0.64,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/dental-hygiene/pre-dental-hygiene.php",
+    "score": 0.76,
+    "performance": 0.52,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/dental-hygiene/transfer-equivalencies.php",
+    "score": 0.82,
+    "performance": 0.77,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/dental-hygiene/tuition-fees.php",
+    "score": 0.79,
+    "performance": 0.65,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/ece/community-partners.php",
+    "score": 0.83,
+    "performance": 0.82,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/ece/early-childhood-education-aas.php",
+    "score": 0.79,
+    "performance": 0.69,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/ece/index.php",
+    "score": 0.8,
+    "performance": 0.69,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/index.php",
+    "score": 0.81,
+    "performance": 0.74,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/nps/facility.php",
+    "score": 0.8,
+    "performance": 0.7,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/nps/faculty-and-staff.php",
+    "score": 0.8,
+    "performance": 0.69,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/nps/faq.php",
+    "score": 0.8,
+    "performance": 0.68,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/nps/index.php",
+    "score": 0.79,
+    "performance": 0.74,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/degrees/cte/nps/prlea-certificate.php",
+    "score": 0.79,
+    "performance": 0.67,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/nps/success-stories.php",
+    "score": 0.79,
+    "performance": 0.69,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/nursing/application-admission.php",
+    "score": 0.79,
+    "performance": 0.66,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/nursing/cna.php",
+    "score": 0.8,
+    "performance": 0.7,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/nursing/guaranteed-admission.php",
+    "score": 0.84,
+    "performance": 0.83,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/nursing/index.php",
+    "score": 0.78,
+    "performance": 0.65,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/nursing/information.php",
+    "score": 0.8,
+    "performance": 0.7,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/nursing/nursing-aas.php",
+    "score": 0.81,
+    "performance": 0.74,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/nursing/nursing-bs.php",
+    "score": 0.8,
+    "performance": 0.72,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/cte/nursing/pre-nursing.php",
+    "score": 0.8,
+    "performance": 0.68,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/degree-information.php",
+    "score": 0.8,
+    "performance": 0.7,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/index.php",
+    "score": 0.77,
+    "performance": 0.56,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/meta-majors/arts_humanities.php",
+    "score": 0.83,
+    "performance": 0.88,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/degrees/meta-majors/aviation_transportation.php",
+    "score": 0.85,
+    "performance": 0.99,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/degrees/meta-majors/business_industry.php",
+    "score": 0.85,
+    "performance": 0.99,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/degrees/meta-majors/health_sciences.php",
+    "score": 0.83,
+    "performance": 0.88,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/degrees/meta-majors/index.php",
+    "score": 0.85,
+    "performance": 0.99,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/degrees/meta-majors/science_mathematics.php",
+    "score": 0.83,
+    "performance": 0.88,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/degrees/meta-majors/social_behavioral_science.php",
+    "score": 0.83,
+    "performance": 0.88,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/degrees/online-degrees.php",
+    "score": 0.84,
+    "performance": 0.83,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/plans/index.php",
+    "score": 0.8,
+    "performance": 0.69,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/plans/paleontology.php",
+    "score": 0.81,
+    "performance": 0.74,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/degrees/professional-licensure-disclosures.php",
+    "score": 0.84,
+    "performance": 0.85,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/index.php",
+    "score": 0.71,
+    "performance": 0.49,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.69
+  },
+  {
+    "path": "/news/choosing-an-outdoorsy-college-it-s-an-education-and-a-lifestyle.php",
+    "score": 0.77,
+    "performance": 0.67,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/news/index.php",
+    "score": 0.75,
+    "performance": 0.66,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.69
+  },
+  {
+    "path": "/news/school-for-mechanics-gearing-up-on-the-latest-auto-repair-technology.php",
+    "score": 0.76,
+    "performance": 0.64,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/news/style-substance-a-look-into-cosmetology-at-cncc.php",
+    "score": 0.79,
+    "performance": 0.72,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/npcalc%2022-23.html",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 1,
+    "seo": 0.91
+  },
+  {
+    "path": "/search.php",
+    "score": 0.85,
+    "performance": 0.96,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/sitemap.php",
+    "score": 0.78,
+    "performance": 0.68,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/students/index.php",
+    "score": 0.77,
+    "performance": 0.59,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/workforce-training/index.php",
+    "score": 0.81,
+    "performance": 0.74,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/workforce-training/life-long-learning.php",
+    "score": 0.81,
+    "performance": 0.74,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/workforce-training/mine-training-cert.php",
+    "score": 0.84,
+    "performance": 0.86,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  }
+]
