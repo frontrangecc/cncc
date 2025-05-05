@@ -1,0 +1,1005 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-H3",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,4,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div#accordion-d21e223 > div.card > div#accordion-d21e223-headingd21e238 > h3.mb-0",
+            "boundingRect": {
+              "top": 1140,
+              "bottom": 1196,
+              "left": 12,
+              "right": 400,
+              "width": 388,
+              "height": 56
+            },
+            "snippet": "<h3 class=\"mb-0\" role=\"heading\">",
+            "nodeLabel": "Rangely Campus",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-IMG",
+            "path": "1,HTML,1,BODY,28,IMG",
+            "selector": "body > img",
+            "boundingRect": {
+              "top": 3169,
+              "bottom": 3170,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://secure.adnxs.com/seg?t=2&amp;add=32960569\" width=\"1\" height=\"1\">",
+            "nodeLabel": "body > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "target-size",
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-BUTTON",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,BUTTON",
+            "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button.active",
+            "boundingRect": {
+              "top": 1101,
+              "bottom": 1124,
+              "left": 73,
+              "right": 87,
+              "width": 13,
+              "height": 23
+            },
+            "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"0\" aria-label=\"Slide 1\" class=\"active\">",
+            "nodeLabel": "Slide 1",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (13.4px by 23px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-5-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,1,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 93,
+                    "right": 106,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"1\" aria-label=\"Slide 2\">",
+                  "nodeLabel": "Slide 2"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-BUTTON",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,1,BUTTON",
+            "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+            "boundingRect": {
+              "top": 1101,
+              "bottom": 1124,
+              "left": 93,
+              "right": 106,
+              "width": 13,
+              "height": 23
+            },
+            "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"1\" aria-label=\"Slide 2\">",
+            "nodeLabel": "Slide 2",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (13.4px by 23px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-4-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button.active",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 73,
+                    "right": 87,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"0\" aria-label=\"Slide 1\" class=\"active\">",
+                  "nodeLabel": "Slide 1"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,2,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 112,
+                    "right": 125,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"2\" aria-label=\"Slide 3\">",
+                  "nodeLabel": "Slide 3"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-BUTTON",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,2,BUTTON",
+            "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+            "boundingRect": {
+              "top": 1101,
+              "bottom": 1124,
+              "left": 112,
+              "right": 125,
+              "width": 13,
+              "height": 23
+            },
+            "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"2\" aria-label=\"Slide 3\">",
+            "nodeLabel": "Slide 3",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (13.4px by 23px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-5-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,1,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 93,
+                    "right": 106,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"1\" aria-label=\"Slide 2\">",
+                  "nodeLabel": "Slide 2"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-7-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,3,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 131,
+                    "right": 145,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"3\" aria-label=\"Slide 4\">",
+                  "nodeLabel": "Slide 4"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-BUTTON",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,3,BUTTON",
+            "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+            "boundingRect": {
+              "top": 1101,
+              "bottom": 1124,
+              "left": 131,
+              "right": 145,
+              "width": 13,
+              "height": 23
+            },
+            "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"3\" aria-label=\"Slide 4\">",
+            "nodeLabel": "Slide 4",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (13.4px by 23px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,2,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 112,
+                    "right": 125,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"2\" aria-label=\"Slide 3\">",
+                  "nodeLabel": "Slide 3"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-8-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,4,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 151,
+                    "right": 164,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"4\" aria-label=\"Slide 5\">",
+                  "nodeLabel": "Slide 5"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-BUTTON",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,4,BUTTON",
+            "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+            "boundingRect": {
+              "top": 1101,
+              "bottom": 1124,
+              "left": 151,
+              "right": 164,
+              "width": 13,
+              "height": 23
+            },
+            "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"4\" aria-label=\"Slide 5\">",
+            "nodeLabel": "Slide 5",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (13.4px by 23px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-7-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,3,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 131,
+                    "right": 145,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"3\" aria-label=\"Slide 4\">",
+                  "nodeLabel": "Slide 4"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-9-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,5,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 170,
+                    "right": 184,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"5\" aria-label=\"Slide 6\">",
+                  "nodeLabel": "Slide 6"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-BUTTON",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,5,BUTTON",
+            "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+            "boundingRect": {
+              "top": 1101,
+              "bottom": 1124,
+              "left": 170,
+              "right": 184,
+              "width": 13,
+              "height": 23
+            },
+            "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"5\" aria-label=\"Slide 6\">",
+            "nodeLabel": "Slide 6",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (13.4px by 23px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-8-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,4,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 151,
+                    "right": 164,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"4\" aria-label=\"Slide 5\">",
+                  "nodeLabel": "Slide 5"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-10-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,6,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 190,
+                    "right": 203,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"6\" aria-label=\"Slide 7\">",
+                  "nodeLabel": "Slide 7"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-10-BUTTON",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,6,BUTTON",
+            "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+            "boundingRect": {
+              "top": 1101,
+              "bottom": 1124,
+              "left": 190,
+              "right": 203,
+              "width": 13,
+              "height": 23
+            },
+            "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"6\" aria-label=\"Slide 7\">",
+            "nodeLabel": "Slide 7",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (13.4px by 23px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-9-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,5,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 170,
+                    "right": 184,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"5\" aria-label=\"Slide 6\">",
+                  "nodeLabel": "Slide 6"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-11-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,7,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 209,
+                    "right": 222,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"7\" aria-label=\"Slide 8\">",
+                  "nodeLabel": "Slide 8"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-BUTTON",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,7,BUTTON",
+            "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+            "boundingRect": {
+              "top": 1101,
+              "bottom": 1124,
+              "left": 209,
+              "right": 222,
+              "width": 13,
+              "height": 23
+            },
+            "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"7\" aria-label=\"Slide 8\">",
+            "nodeLabel": "Slide 8",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (13.4px by 23px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-10-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,6,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 190,
+                    "right": 203,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"6\" aria-label=\"Slide 7\">",
+                  "nodeLabel": "Slide 7"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-12-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,8,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 228,
+                    "right": 242,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"8\" aria-label=\"Slide 9\">",
+                  "nodeLabel": "Slide 9"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-BUTTON",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,8,BUTTON",
+            "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+            "boundingRect": {
+              "top": 1101,
+              "bottom": 1124,
+              "left": 228,
+              "right": 242,
+              "width": 13,
+              "height": 23
+            },
+            "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"8\" aria-label=\"Slide 9\">",
+            "nodeLabel": "Slide 9",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (13.4px by 23px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-11-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,7,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 209,
+                    "right": 222,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"7\" aria-label=\"Slide 8\">",
+                  "nodeLabel": "Slide 8"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-13-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,9,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 248,
+                    "right": 261,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"9\" aria-label=\"Slide 10\">",
+                  "nodeLabel": "Slide 10"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-13-BUTTON",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,9,BUTTON",
+            "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+            "boundingRect": {
+              "top": 1101,
+              "bottom": 1124,
+              "left": 248,
+              "right": 261,
+              "width": 13,
+              "height": 23
+            },
+            "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"9\" aria-label=\"Slide 10\">",
+            "nodeLabel": "Slide 10",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (13.4px by 23px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-12-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,8,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 228,
+                    "right": 242,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"8\" aria-label=\"Slide 9\">",
+                  "nodeLabel": "Slide 9"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-14-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,10,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 267,
+                    "right": 281,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"10\" aria-label=\"Slide 11\">",
+                  "nodeLabel": "Slide 11"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-14-BUTTON",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,10,BUTTON",
+            "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+            "boundingRect": {
+              "top": 1101,
+              "bottom": 1124,
+              "left": 267,
+              "right": 281,
+              "width": 13,
+              "height": 23
+            },
+            "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"10\" aria-label=\"Slide 11\">",
+            "nodeLabel": "Slide 11",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (13.4px by 23px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-13-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,9,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 248,
+                    "right": 261,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"9\" aria-label=\"Slide 10\">",
+                  "nodeLabel": "Slide 10"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-15-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,11,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 287,
+                    "right": 300,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"11\" aria-label=\"Slide 12\">",
+                  "nodeLabel": "Slide 12"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-15-BUTTON",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,11,BUTTON",
+            "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+            "boundingRect": {
+              "top": 1101,
+              "bottom": 1124,
+              "left": 287,
+              "right": 300,
+              "width": 13,
+              "height": 23
+            },
+            "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"11\" aria-label=\"Slide 12\">",
+            "nodeLabel": "Slide 12",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (13.4px by 23px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-14-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,10,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 267,
+                    "right": 281,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"10\" aria-label=\"Slide 11\">",
+                  "nodeLabel": "Slide 11"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-16-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,12,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 306,
+                    "right": 319,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"12\" aria-label=\"Slide 13\">",
+                  "nodeLabel": "Slide 13"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-16-BUTTON",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,12,BUTTON",
+            "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+            "boundingRect": {
+              "top": 1101,
+              "bottom": 1124,
+              "left": 306,
+              "right": 319,
+              "width": 13,
+              "height": 23
+            },
+            "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"12\" aria-label=\"Slide 13\">",
+            "nodeLabel": "Slide 13",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (13.4px by 23px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-15-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,11,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 287,
+                    "right": 300,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"11\" aria-label=\"Slide 12\">",
+                  "nodeLabel": "Slide 12"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-17-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,13,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 325,
+                    "right": 339,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"13\" aria-label=\"Slide 14\">",
+                  "nodeLabel": "Slide 14"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-17-BUTTON",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,13,BUTTON",
+            "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+            "boundingRect": {
+              "top": 1101,
+              "bottom": 1124,
+              "left": 325,
+              "right": 339,
+              "width": 13,
+              "height": 23
+            },
+            "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"13\" aria-label=\"Slide 14\">",
+            "nodeLabel": "Slide 14",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (13.4px by 23px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-16-BUTTON",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,12,BUTTON",
+                  "selector": "div.index-carousel > div#carouselExampleCaptions > div.carousel-indicators > button",
+                  "boundingRect": {
+                    "top": 1101,
+                    "bottom": 1124,
+                    "left": 306,
+                    "right": 319,
+                    "width": 13,
+                    "height": 23
+                  },
+                  "snippet": "<button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"12\" aria-label=\"Slide 13\">",
+                  "nodeLabel": "Slide 13"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "wcag22aa",
+          "wcag258"
+        ]
+      }
+    },
+    "errorCount": 14
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-A",
+            "path": "1,HTML,1,BODY,17,DIV,0,SPAN,1,A",
+            "selector": "body > div.alert > span > a",
+            "boundingRect": {
+              "top": 779,
+              "bottom": 800,
+              "left": 20,
+              "right": 161,
+              "width": 141,
+              "height": 21
+            },
+            "snippet": "<a tabindex=\"0\" role=\"button\" href=\"#\" target=\"_blank\" rel=\"noopener\" aria-label=\"learn more about cookies\">",
+            "nodeLabel": "Privacy Policy",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
