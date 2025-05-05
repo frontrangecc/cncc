@@ -1,0 +1,235 @@
+[
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-IMG",
+            "path": "1,HTML,1,BODY,31,IMG",
+            "selector": "body > img",
+            "boundingRect": {
+              "top": 2235,
+              "bottom": 2236,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://secure.adnxs.com/seg?t=2&amp;add=32960569\" width=\"1\" height=\"1\">",
+            "nodeLabel": "body > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-A",
+            "path": "1,HTML,1,BODY,7,DIV,0,SPAN,1,A",
+            "selector": "body > div.alert > span > a",
+            "boundingRect": {
+              "top": 896,
+              "bottom": 917,
+              "left": 341,
+              "right": 482,
+              "width": 141,
+              "height": 21
+            },
+            "snippet": "<a tabindex=\"0\" role=\"button\" href=\"#\" target=\"_blank\" rel=\"noopener\" aria-label=\"learn more about cookies\">",
+            "nodeLabel": "Privacy Policy",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "td-has-header",
+    "title": "`<td>` elements in a large `<table>` do not have table headers.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-TABLE",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,1,TABLE",
+            "selector": "div.container > div.row > div.col-lg-8 > table",
+            "boundingRect": {
+              "top": 558,
+              "bottom": 894,
+              "left": 497,
+              "right": 1233,
+              "width": 736,
+              "height": 336
+            },
+            "snippet": "<table style=\"width: 100%;\">",
+            "nodeLabel": " \t1st Year\nFall\t1st Year\nSpring\t2nd Year\nSummer\t2nd Year\nFall\t2nd Year\nSpring\nI…",
+            "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-3-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,1,TABLE,0,TBODY,0,TR,1,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 558,
+                    "bottom": 608,
+                    "left": 800,
+                    "right": 883,
+                    "width": 83,
+                    "height": 50
+                  },
+                  "snippet": "<td style=\"text-align: center;\">",
+                  "nodeLabel": "1st Year\nFall"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-4-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,1,TABLE,0,TBODY,0,TR,2,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 558,
+                    "bottom": 608,
+                    "left": 883,
+                    "right": 966,
+                    "width": 83,
+                    "height": 50
+                  },
+                  "snippet": "<td style=\"text-align: center;\">",
+                  "nodeLabel": "1st Year\nSpring"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-5-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,1,TABLE,0,TBODY,0,TR,3,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 558,
+                    "bottom": 608,
+                    "left": 966,
+                    "right": 1055,
+                    "width": 89,
+                    "height": 50
+                  },
+                  "snippet": "<td style=\"text-align: center;\">",
+                  "nodeLabel": "2nd Year\nSummer"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.tables",
+          "experimental",
+          "wcag2a",
+          "wcag131",
+          "section508",
+          "section508.22.g",
+          "TTv5",
+          "TT14.b",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

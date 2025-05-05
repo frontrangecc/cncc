@@ -1,0 +1,520 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-H3",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.d-none > div.card > div.card-body > h3.title-decorative",
+            "boundingRect": {
+              "top": 1444,
+              "bottom": 1466,
+              "left": 134,
+              "right": 456,
+              "width": 322,
+              "height": 22
+            },
+            "snippet": "<h3 class=\"title-decorative font-size-sm\">",
+            "nodeLabel": "CONTACT INFORMATION",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-IMG",
+            "path": "1,HTML,1,BODY,44,IMG",
+            "selector": "body > img",
+            "boundingRect": {
+              "top": 4011,
+              "bottom": 4012,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://secure.adnxs.com/seg?t=2&amp;add=32960569\" width=\"1\" height=\"1\">",
+            "nodeLabel": "body > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-A",
+            "path": "1,HTML,1,BODY,7,DIV,0,SPAN,1,A",
+            "selector": "body > div.alert > span > a",
+            "boundingRect": {
+              "top": 896,
+              "bottom": 917,
+              "left": 341,
+              "right": 482,
+              "width": 141,
+              "height": 21
+            },
+            "snippet": "<a tabindex=\"0\" role=\"button\" href=\"#\" target=\"_blank\" rel=\"noopener\" aria-label=\"learn more about cookies\">",
+            "nodeLabel": "Privacy Policy",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "td-has-header",
+    "title": "`<td>` elements in a large `<table>` do not have table headers.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-TABLE",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,6,TABLE",
+            "selector": "div.container > div.row > div.col-lg-8 > table",
+            "boundingRect": {
+              "top": 1228,
+              "bottom": 1408,
+              "left": 497,
+              "right": 1233,
+              "width": 736,
+              "height": 180
+            },
+            "snippet": "<table style=\"width: 100%;\">",
+            "nodeLabel": "Course\tDescription\tCredits\nBIO 1111\tGeneral College Biology I\t5\nENG 1021\tEnglis…",
+            "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-4-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,6,TABLE,0,TBODY,0,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1228,
+                    "bottom": 1254,
+                    "left": 497,
+                    "right": 718,
+                    "width": 221,
+                    "height": 26
+                  },
+                  "snippet": "<td style=\"width: 30%;\">",
+                  "nodeLabel": "Course"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-5-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,6,TABLE,0,TBODY,0,TR,1,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1228,
+                    "bottom": 1254,
+                    "left": 718,
+                    "right": 1159,
+                    "width": 442,
+                    "height": 26
+                  },
+                  "snippet": "<td style=\"width: 60%;\">",
+                  "nodeLabel": "Description"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,6,TABLE,0,TBODY,0,TR,2,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1228,
+                    "bottom": 1254,
+                    "left": 1159,
+                    "right": 1233,
+                    "width": 74,
+                    "height": 26
+                  },
+                  "snippet": "<td style=\"width: 10%;\">",
+                  "nodeLabel": "Credits"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-TABLE",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,8,TABLE",
+            "selector": "div.container > div.row > div.col-lg-8 > table",
+            "boundingRect": {
+              "top": 1455,
+              "bottom": 1611,
+              "left": 497,
+              "right": 1233,
+              "width": 736,
+              "height": 156
+            },
+            "snippet": "<table style=\"width: 100%;\">",
+            "nodeLabel": "Course\tDescription\tCredits\nBIO 2014\tMicrobiology*\t4\nMAT 1240+\tMath for Liberal …",
+            "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-8-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,8,TABLE,0,TBODY,0,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1455,
+                    "bottom": 1481,
+                    "left": 497,
+                    "right": 718,
+                    "width": 221,
+                    "height": 26
+                  },
+                  "snippet": "<td style=\"width: 30%;\">",
+                  "nodeLabel": "Course"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-9-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,8,TABLE,0,TBODY,0,TR,1,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1455,
+                    "bottom": 1481,
+                    "left": 718,
+                    "right": 1159,
+                    "width": 442,
+                    "height": 26
+                  },
+                  "snippet": "<td style=\"width: 60%;\">",
+                  "nodeLabel": "Description"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-10-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,8,TABLE,0,TBODY,0,TR,2,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1455,
+                    "bottom": 1481,
+                    "left": 1159,
+                    "right": 1233,
+                    "width": 74,
+                    "height": 26
+                  },
+                  "snippet": "<td style=\"width: 10%;\">",
+                  "nodeLabel": "Credits"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-TABLE",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,11,TABLE",
+            "selector": "div.container > div.row > div.col-lg-8 > table",
+            "boundingRect": {
+              "top": 1713,
+              "bottom": 1869,
+              "left": 497,
+              "right": 1233,
+              "width": 736,
+              "height": 156
+            },
+            "snippet": "<table style=\"width: 100%;\">",
+            "nodeLabel": "Course\tDescription\tCredits\nBIO 2011\tAnatomy and Physiology I*\t4\nCHE 1011\tIntrod…",
+            "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-12-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,11,TABLE,0,TBODY,0,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1713,
+                    "bottom": 1739,
+                    "left": 497,
+                    "right": 718,
+                    "width": 221,
+                    "height": 26
+                  },
+                  "snippet": "<td style=\"width: 30%;\">",
+                  "nodeLabel": "Course"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-13-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,11,TABLE,0,TBODY,0,TR,1,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1713,
+                    "bottom": 1739,
+                    "left": 718,
+                    "right": 1159,
+                    "width": 442,
+                    "height": 26
+                  },
+                  "snippet": "<td style=\"width: 60%;\">",
+                  "nodeLabel": "Description"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-14-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,11,TABLE,0,TBODY,0,TR,2,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1713,
+                    "bottom": 1739,
+                    "left": 1159,
+                    "right": 1233,
+                    "width": 74,
+                    "height": 26
+                  },
+                  "snippet": "<td style=\"width: 10%;\">",
+                  "nodeLabel": "Credits"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-15-TABLE",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,13,TABLE",
+            "selector": "div.container > div.row > div.col-lg-8 > table",
+            "boundingRect": {
+              "top": 1916,
+              "bottom": 2098,
+              "left": 497,
+              "right": 1233,
+              "width": 736,
+              "height": 182
+            },
+            "snippet": "<table style=\"width: 100%;\">",
+            "nodeLabel": "Course\tDescription\tCredits\nBIO 2012\tAnatomy and Physiology II*\t4\nCHE 1012\tIntro…",
+            "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-16-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,13,TABLE,0,TBODY,0,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1916,
+                    "bottom": 1942,
+                    "left": 497,
+                    "right": 718,
+                    "width": 221,
+                    "height": 26
+                  },
+                  "snippet": "<td style=\"width: 30%;\">",
+                  "nodeLabel": "Course"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-17-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,13,TABLE,0,TBODY,0,TR,1,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1916,
+                    "bottom": 1942,
+                    "left": 718,
+                    "right": 1159,
+                    "width": 442,
+                    "height": 26
+                  },
+                  "snippet": "<td style=\"width: 60%;\">",
+                  "nodeLabel": "Description"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-18-TD",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,1,DIV,1,DIV,13,TABLE,0,TBODY,0,TR,2,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1916,
+                    "bottom": 1942,
+                    "left": 1159,
+                    "right": 1233,
+                    "width": 74,
+                    "height": 26
+                  },
+                  "snippet": "<td style=\"width: 10%;\">",
+                  "nodeLabel": "Credits"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.tables",
+          "experimental",
+          "wcag2a",
+          "wcag131",
+          "section508",
+          "section508.22.g",
+          "TTv5",
+          "TT14.b",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

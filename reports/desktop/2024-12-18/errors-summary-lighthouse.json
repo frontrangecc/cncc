@@ -1,1 +1,14 @@
-{}
+{
+  "link-name": 160,
+  "heading-order": 146,
+  "image-alt": 143,
+  "label-content-name-mismatch": 143,
+  "td-has-header": 13,
+  "table-fake-caption": 11,
+  "color-contrast": 7,
+  "target-size": 6,
+  "aria-required-parent": 6,
+  "frame-title": 5,
+  "aria-allowed-attr": 3,
+  "document-title": 1
+}
