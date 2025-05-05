@@ -1,0 +1,13 @@
+{
+  "image-alt": 150,
+  "label-content-name-mismatch": 150,
+  "heading-order": 79,
+  "td-has-header": 12,
+  "target-size": 11,
+  "link-name": 10,
+  "table-fake-caption": 7,
+  "frame-title": 6,
+  "color-contrast": 4,
+  "aria-allowed-attr": 3,
+  "document-title": 1
+}
